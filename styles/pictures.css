@@ -1,0 +1,41 @@
+.intro-picture {
+  height: 4em;
+  max-width: 30%;
+  padding-top: 10rem;
+}
+
+.course-picture {
+  display: block;
+  max-width: 90%;
+  height: 15em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.teacher-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  height: 120px;
+}
+
+.map-picture {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 2em;
+  border-radius: 10%;
+}
+
+.contact-picture {
+  height: 1em;
+}
+
+@media (max-width: 960px) {
+  .teacher-picture {
+    margin-top: 1em;
+  }
+}

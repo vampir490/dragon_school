@@ -1,0 +1,150 @@
+.bottom-space {
+  margin-bottom: 2em;
+}
+
+.up-space {
+  margin-top: 2em;
+}
+
+.space-both {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.up-space-small {
+  margin-top: .5em;
+}
+
+.bottom-space-small {
+  margin-bottom: .5em;
+}
+
+.space-left {
+  padding-left: 1em;
+}
+
+.section {
+  margin-top: 1em;
+  padding-bottom: 1em;
+}
+
+.courses {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.course {
+  border: solid;
+}
+
+.basic {
+  border-bottom: none;
+}
+
+.expert {
+  border-top: none;
+}
+
+.course-description {
+  height: 290px;
+}
+
+.course:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.teachers:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.contacts:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.teachers {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.contacts {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.column-1-2 {
+  float: left;
+  width: 50%;
+}
+
+.column-1-4 {
+  width: 25%;
+  float: left;
+}
+
+.directions {
+  display: block;
+  max-width: 60%;
+  text-align: left;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 2em;
+}
+
+.main-contacts {
+  margin-top: 2.5em;
+  color: #fff;
+}
+
+.contacts a {
+  display: block;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 2em;
+  border-radius: 10%;
+}
+
+@media (max-width: 960px) {
+  .column-1-4 {
+    float: left;
+    width: 50%;
+  }
+
+  .column-1-2 {
+    float: none;
+    width: auto;
+  }
+
+  a {
+    display: block;
+    padding-top: .5em;
+  }
+
+  .directions {
+    margin-top: 1em;
+  }
+
+  .main-contacts {
+    display: block;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .column-1-4 {
+    float: none;
+    width: auto;
+  }
+}
